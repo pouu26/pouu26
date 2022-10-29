@@ -1,0 +1,22 @@
+Package: com.amywhile.aemulo
+Name: Aemulo
+Version: 1.1.2
+Architecture: iphoneos-arm
+Description: NFC Frickery
+Maintainer: Amy While <support@anamy.gay>
+Author: Amy While <support@anamy.gay>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.1)
+Tag: cydia::commercial, compatible_min::ios13.0
+Icon: https://cdn.chariz.cloud/icon/aemulo/icon@3x.png
+Depiction: https://chariz.com/buy/aemulo
+Installed-Size: 1876
+Filename: debs/com.amywhile.aemulo_1.1.2_iphoneos-arm.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.amywhile.aemulo.html
+Icon: https://pouu26.github.io/pouu26/icons/com.amywhile.aemulo.png
+Size: 415974
+MD5sum: 3fed788661189f1dbb54c2e3f9fa5f8c
+SHA1: 8acc8c7a2f8704000b9d3f418d2411460b771dc9
+SHA256: daabb9351f94fad35c33f3bffecdb9494984b4826bebf0be1d857b50d749dc85
+SHA521: 95f0685546a4ed1b998dd813f120bfe6d4a1a6204eb8c69cb262f4b9825efefd8f316c1d3926613c376b39c97ee00d60550f336b87d49e8943ef0b128fa3ce62
+
