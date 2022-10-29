@@ -1,6 +1,0 @@
-#!/bin/sh
-
-killall nfcd || true
-killall PassbookUIService || true
-killall Passbook || true
-uicache -p /Applications/Aemulo.app 
