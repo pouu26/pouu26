@@ -1,6 +1,32 @@
 #!/bin/sh
 
-killall nfcd || true
-killall PassbookUIService || true
-killall Passbook || true
-uicache -p /Applications/Aemulo.app 
+base_ver=14.0
+ver=$(sw_vers -productVersion)
+if [ "$(printf %b $base_ver\\n$ver | sort -V | tail -1)" = "$base_ver" ]
+then
+   rm -rf /Applications/CraneApplication.app
+else
+   rm -rf /Applications/CraneApplication_Legacy.app
+fi
+
+chown root:wheel /Library/LaunchDaemons/com.opa334.cranehelperd.plist
+chmod 644 /Library/LaunchDaemons/com.opa334.cranehelperd.plist
+
+chown root:wheel /usr/local/libexec/cranehelperd
+chmod 755 /usr/local/libexec/cranehelperd
+
+chown root:wheel /usr/local/bin/cranehelperd_start
+chmod 06775 /usr/local/bin/cranehelperd_start
+
+launchctl load /Library/LaunchDaemons/com.opa334.cranehelperd.plist 2> /dev/null
+
+killall -9 containermanagerd 2> /dev/null
+killall cfprefsd 2> /dev/null
+killall -9 securityd 2> /dev/null
+killall pkd 2> /dev/null
+killall -9 apsd 2> /dev/null
+killall -9 lsd 2> /dev/null
+killall -9 accountsd 2> /dev/null
+killall -9 gamed 2> /dev/null
+
+exit 0
