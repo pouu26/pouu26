@@ -1,0 +1,13 @@
+Package: com.initwithframe.velvet
+Name: Velvet
+Depends: mobilesubstrate, firmware (>= 13.0), preferenceloader, net.limneos.libbulletin (>= 0.1-158), com.spark.libsparkcolourpicker
+Architecture: iphoneos-arm
+Description: A new way to customize your notifications!
+Maintainer: initWithFrame <initwithframe@protonmail.com>
+Author: initWithFrame <initwithframe@protonmail.com>
+Section: Tweaks
+Version: 1.5.1
+Tag: cydia::commercial, compatible_min::ios13.0
+Icon: https://chariz.com/cdn/icon/velvet/icon@3x.png
+Depiction: https://chariz.com/buy/velvet
+Installed-Size: 764
