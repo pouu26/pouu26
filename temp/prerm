@@ -1,0 +1,4 @@
+#!/bin/sh
+launchctl unload /Library/LaunchDaemons/com.opa334.cranehelperd.plist 2> /dev/null
+
+exit 0
