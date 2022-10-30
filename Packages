@@ -1,0 +1,36 @@
+Package: net.myclassic.localiapstore14
+Version: 1.1
+Section: Tweaks
+Maintainer: Classic
+SileoDepiction: https://myclassic.net/sileo.php?pid=2152
+Architecture: iphoneos-arm
+Name: LocalIAPStore14
+Author: Mário
+Filename: debs/Abdulkader.localiapstore14_1.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/net.myclassic.localiapstore14.html
+Icon: https://imnotsatan.github.io/icons/net.myclassic.localiapstore14.png
+Size: 3632
+MD5sum: 2a6c1e6c7a91771b90a0e0afaa073d6c
+SHA1: 6a1e84e09688b7ce9434cdc7fd976debb65cb143
+SHA256: d24ede4e32985ea6fbad1a3c15dac8cfe188f58aa07478e6f71280486fc9c498
+SHA521: d673033b5997e74e38f2705c19ca11eb4820518c4ecf4c8f2bfffa919e1d1232aa7176b630cb415bfb41c08c623e59af659738528114a2d9f7c1387f2e17fc53
+
+Package: com.0xkuj.liveactivities
+Section: Tweaks
+Installed-Size: 5268
+Maintainer: 0xkuj
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: mobilesubstrate, firmware (>= 14)
+Description: Tweak inspired by iOS 16 with live activity timers on your lockscreen
+Name: Live Activities
+Author: 0xkuj
+Filename: debs/com.0xkuj.liveactivities_1.0.1_iphoneos-arm.deb
+Depiction: https://imnotsatan.github.io/depictions/com.0xkuj.liveactivities.html
+Icon: https://imnotsatan.github.io/icons/com.0xkuj.liveactivities.png
+Size: 2371450
+MD5sum: 6c674699aba9485fdbf9f7ec9ab3fb97
+SHA1: af981ae06057b8d049c5b71807c58efa841c160c
+SHA256: 2a99511a1cf1d47a293f05f2d174e1d186b9b620b1712d930f590f9471e24fc4
+SHA521: 800fbb4e27342d74e391729110b688a880a8bf5ad3284254554e225c0d157ff3e34c0d46e67174f489a1a9b76addcb88d1c2f9f99dd11b67dc1aeaef11bef18c
+

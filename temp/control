@@ -1,0 +1,10 @@
+Package: com.0xkuj.liveactivities
+Section: Tweaks
+Installed-Size: 5268
+Maintainer: 0xkuj
+Architecture: iphoneos-arm
+Version: 1.0.1
+Depends: mobilesubstrate, firmware (>= 14)
+Description: Tweak inspired by iOS 16 with live activity timers on your lockscreen
+Name: Live Activities
+Author: 0xkuj
