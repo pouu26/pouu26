@@ -1,8 +1,8 @@
-Origin: AmoguSwagShotgun
-Label: AmoguSwagShotgun
+Origin: Repo Manager Deluxe Default Origin
+Label: Repo Manager Deluxe Default Name
 Suite: stable
 Version: 1.0
-Codename: amoguswagshotgun
+Codename: iospackagemanagerdeluxe
 Architectures: iphoneos-arm
 Components: main
-Description: Amogusquesodecabra official repo. here are some pirated tweaks because amogus is evil and is in favor of piracy MWA HA HA HA HA
+Description: Made with Repo Manager Deluxe
