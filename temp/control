@@ -1,0 +1,9 @@
+Package: com.synnyg.sphere
+Name: Sphere
+Version: 2.0.2
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, firmware (>=11.0), ws.hbang.common (>= 1.11), preferenceloader, com.muirey03.libmryipc, applist, libactivator
+Author: SynnyG <synnyg.devjb@gmail.com>
+Maintainer: SynnyG <synnyg.devjb@gmail.com>
+Description: Multitasking at its best!
