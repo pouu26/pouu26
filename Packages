@@ -15,6 +15,50 @@ SHA1: 6a1e84e09688b7ce9434cdc7fd976debb65cb143
 SHA256: d24ede4e32985ea6fbad1a3c15dac8cfe188f58aa07478e6f71280486fc9c498
 SHA521: d673033b5997e74e38f2705c19ca11eb4820518c4ecf4c8f2bfffa919e1d1232aa7176b630cb415bfb41c08c623e59af659738528114a2d9f7c1387f2e17fc53
 
+Package: com.amywhile.aemulo
+Name: Aemulo
+Version: 1.1.2
+Architecture: iphoneos-arm
+Description: NFC Frickery
+Maintainer: Amy While <support@anamy.gay>
+Author: Amy While <support@anamy.gay>
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 13.0), ws.hbang.alderis (>= 1.1)
+Tag: cydia::commercial, compatible_min::ios13.0
+Icon: https://cdn.chariz.cloud/icon/aemulo/icon@3x.png
+Depiction: https://chariz.com/buy/aemulo
+Installed-Size: 1876
+Filename: debs/com.amywhile.aemulo_1.1.2_iphoneos-arm.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.amywhile.aemulo.html
+Icon: https://pouu26.github.io/pouu26/icons/com.amywhile.aemulo.png
+Size: 415974
+MD5sum: 3fed788661189f1dbb54c2e3f9fa5f8c
+SHA1: 8acc8c7a2f8704000b9d3f418d2411460b771dc9
+SHA256: daabb9351f94fad35c33f3bffecdb9494984b4826bebf0be1d857b50d749dc85
+SHA521: 95f0685546a4ed1b998dd813f120bfe6d4a1a6204eb8c69cb262f4b9825efefd8f316c1d3926613c376b39c97ee00d60550f336b87d49e8943ef0b128fa3ce62
+
+Package: com.mtac.quasar
+Section: Tweaks
+Installed-Size: 2748
+Maintainer: MTAC
+Architecture: iphoneos-arm
+Version: 1.0.0
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, ws.hbang.common
+Description: Revitalize the App Switcher
+Name: Quasar
+Author: MTAC
+Depiction: https://havoc.app/depiction/quasar
+SileoDepiction: https://havoc.app/package/quasar/depiction.json
+Icon: file:///Library/PreferenceBundles/QuasarPreferences.bundle/quasar-large.png
+Filename: debs/com.mtac.quasar_1.0.0_iphoneos-arm.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.mtac.quasar.html
+Icon: https://pouu26.github.io/pouu26/icons/com.mtac.quasar.png
+Size: 2044196
+MD5sum: aef802e1eea6f916c686f829ec9c7847
+SHA1: 5a6ad92d4f218a75c5f8721af8b43df9263ea93d
+SHA256: 6a4e518d6babd4cd7b818bbd809b0eb35d29837db63a8e0829e25c336a1e75ac
+SHA521: 8f3b80d8c81289715a5cc365f434d93c52b5d1613cd65e9b1311b6b6b38b3e02cfc45284b9601430cacbdcc68f9fbce369b493132070a0dd6d33d2f3c8c9d452
+
 Package: com.opa334.crane
 Section: Tweaks
 Installed-Size: 3376
