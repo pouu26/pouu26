@@ -11,7 +11,7 @@ Tag: cydia::commercial, compatible_min::ios13.0
 Icon: https://cdn.chariz.cloud/icon/aemulo/icon@3x.png
 Depiction: https://chariz.com/buy/aemulo
 Installed-Size: 1876
-Filename: debs/com.amywhile.aemulo_1.1.2_iphoneos-arm.deb
+Filename: debs/aemulo.deb
 Depiction: https://pouu26.github.io/pouu26/depictions/com.amywhile.aemulo.html
 Icon: https://pouu26.github.io/pouu26/icons/com.amywhile.aemulo.png
 Size: 415974
@@ -19,4 +19,111 @@ MD5sum: 3fed788661189f1dbb54c2e3f9fa5f8c
 SHA1: 8acc8c7a2f8704000b9d3f418d2411460b771dc9
 SHA256: daabb9351f94fad35c33f3bffecdb9494984b4826bebf0be1d857b50d749dc85
 SHA521: 95f0685546a4ed1b998dd813f120bfe6d4a1a6204eb8c69cb262f4b9825efefd8f316c1d3926613c376b39c97ee00d60550f336b87d49e8943ef0b128fa3ce62
+
+Package: com.anthopak.appaze2
+Name: Appaze 2
+Depends: mobilesubstrate, preferenceloader, ws.hbang.common (>= 1.15), firmware (>= 11.0), com.a3tweaks.flipswitch (>= 1.0.16~beta5)
+Architecture: iphoneos-arm
+Description: Customize up to 30 settings for each app, in a clean and friendly UI, easily accessible!
+Maintainer: AnthoPak <anthopakdev@gmail.com>
+Author: AnthoPak <anthopakdev@gmail.com>
+Section: Tweaks
+Version: 1.4.1
+Icon: https://img.chariz.cloud/icon/appaze2/icon@3x.png
+Header: https://img.chariz.cloud/sileo-banner/appaze2.jpg
+Depiction: https://chariz.com/buy/appaze2
+Tag: cydia::commercial, compatible_min::ios11.0
+Installed-Size: 1908
+Filename: debs/appaze.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.anthopak.appaze2.html
+Icon: https://pouu26.github.io/pouu26/icons/com.anthopak.appaze2.png
+Size: 832808
+MD5sum: 489eab024540f0aedcfaa38a6afe8224
+SHA1: 1ac6d5c502a53626d39b45cd46aeeb2f0fa0f014
+SHA256: f0116c4b3ce7bd498c5bd1f6dd537d4a9c178aeb2594379afcbb68e9053b286e
+SHA521: b40066d426e896cc784f207e4850e66f7386f6982ed1d2b1abf47efae2e39bef51c1dd5d873b7f24d5301114477cc376c213547c07ecc822d3481c7af306600e
+
+Package: com.bengiannis.complications
+Name: Complications
+Version: 4.0
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate
+Installed-Size: 3436
+Author: Ben Giannis
+Maintainer: Ben Giannis
+Description: watchOS widgets on your lock screen
+Filename: debs/complications.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.bengiannis.complications.html
+Icon: https://pouu26.github.io/pouu26/icons/com.bengiannis.complications.png
+Size: 629034
+MD5sum: 18eb34b8cd9bc2558baf6d821e8cd1d4
+SHA1: 0340ca096ad766a3a17a862e85c72898673dcbdf
+SHA256: 308f04303ad1145ef0ba8dc49264853321da28eaf4397582008ae9815bf7ef58
+SHA521: edc1c925982f727e157e03e06dc917c157013146f1a41a021b0d34cd38bb7923bd06d3e0cd70ef1144bdf4513a8400ffcd7959c5f5aaad21c7e1962b0cdc5ea3
+
+Package: com.opa334.crane
+Section: Tweaks
+Installed-Size: 3376
+Maintainer: opa334
+Architecture: iphoneos-arm
+Version: 1.3.1
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.opa334.libundirect (>= 1.1) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Description: Multiple containers for your applications!
+Name: Crane
+Author: opa334
+Filename: debs/crane.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.opa334.crane.html
+Icon: https://pouu26.github.io/pouu26/icons/com.opa334.crane.png
+Size: 924240
+MD5sum: d59da692c32cdadb3d326ed6ddaefa32
+SHA1: 5b34c37fe7bf7f7a30d2421d75ca7de0f35b23cf
+SHA256: a6b4b65486809233e0fba2a5451b5452dc3e29f21640498719f4153af57d1e42
+SHA521: cbc6d4ee542d8cdfcde737cd3866d5fc01deb3b597ef425f00f41982a37b78e6a8170933dfcdade2579e7117e1451c64feeb6db47bbc4e7c9f17a930bcdf4405
+
+Package: com.devvix.dayn14
+Section: Tweaks
+Installed-Size: 2192
+Maintainer: Devvix
+Architecture: iphoneos-arm
+Version: 1.0.2
+Depends: mobilesubstrate, firmware (>= 14.0), ws.hbang.common (>= 1.14), preferenceloader
+Conflicts: xyz.cypwn.dayn, com.jannikcrack.dayn, com.jannikcrack.dayn14
+Description: New notification concept
+Name: Dayn (iOS 14)
+Author: Devvix, JannikCrack
+Depiction: https://chariz.com/buy/dayn-14
+SileoDepiction: https://repo.chariz.com/api/sileo/package/com.devvix.dayn14/depiction.json
+Icon: https://img.chariz.cloud/icon/dayn-14/icon@3x.png
+Tag: cydia::commercial, compatible_min::ios14.0
+Filename: debs/dayn.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.devvix.dayn14.html
+Icon: https://pouu26.github.io/pouu26/icons/com.devvix.dayn14.png
+Size: 658496
+MD5sum: b6badc75ab6f6011daeb595dd662dfd7
+SHA1: f6a861621f432963ae654f1824091851558d6a01
+SHA256: 1046e2135d5fffde6f6ebd19c2de07b40f9ed669216d024bed27cf9a78adbf8a
+SHA521: cb47f7888fa620cdcf06f2d399e9b134a100b69123a399e79bd946c2eb045ef3f589f632374e89e8a42070fe1dd5146d52b88533ad792030ac09191f34b3fc91
+
+Package: com.jontelang.instalauncher2
+Name: InstaLauncher 2
+Version: 1.8.2
+Section: Tweaks
+Architecture: iphoneos-arm
+Depends: mobilesubstrate, preferenceloader, applist(>=1.5.15), firmware(>=12.1)
+Conflicts: com.jontelang.instalauncher2.beta
+Installed-Size: 1148
+Author: Jonathan Winger Lang <jontelang@gmail.com>
+Maintainer: Jonathan Winger Lang <jontelang@gmail.com>
+Description: Launch ANY app instantly
+Icon: file:///Library/PreferenceBundles/instalauncher2preferences.bundle/icons/preferences-icon@2x.png
+Filename: debs/instalauncher2.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.jontelang.instalauncher2.html
+Icon: https://pouu26.github.io/pouu26/icons/com.jontelang.instalauncher2.png
+Size: 213312
+MD5sum: 75e8bfc0b5ce302b4adec287958efaa3
+SHA1: 8ac3ff7611f9224e689950971a64a26ed777e2ed
+SHA256: a918a58d9a922a67b5d7fa5a3ad1e2c8df7d760d684ed521fd2d66dff9e7fe2f
+SHA521: a093a6455f0bde435597a04af06f4666528af2886cce386fe05ba6cace8f274d9e8c0f2982f78777b01c7a33f00346b06fb2a9620ca1c7038114a5228530faf0
 
