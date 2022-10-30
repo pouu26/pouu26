@@ -15,3 +15,23 @@ SHA1: 6a1e84e09688b7ce9434cdc7fd976debb65cb143
 SHA256: d24ede4e32985ea6fbad1a3c15dac8cfe188f58aa07478e6f71280486fc9c498
 SHA521: d673033b5997e74e38f2705c19ca11eb4820518c4ecf4c8f2bfffa919e1d1232aa7176b630cb415bfb41c08c623e59af659738528114a2d9f7c1387f2e17fc53
 
+Package: com.opa334.crane
+Section: Tweaks
+Installed-Size: 3376
+Maintainer: opa334
+Architecture: iphoneos-arm
+Version: 1.3.1
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader, com.opa334.altlist (>= 1.0.5), com.opa334.libsandy, com.opa334.libundirect (>= 1.1) | firmware (<< 14.0)
+Conflicts: com.opa334.cranelite, com.rpgfarm.slices3, com.subdiox.slices2, com.expetelek.slices
+Description: Multiple containers for your applications!
+Name: Crane
+Author: opa334
+Filename: debs/com.opa334.crane_1.3.1_iphoneos-arm.deb
+Depiction: https://pouu26.github.io/pouu26/depictions/com.opa334.crane.html
+Icon: https://pouu26.github.io/pouu26/icons/com.opa334.crane.png
+Size: 924240
+MD5sum: d59da692c32cdadb3d326ed6ddaefa32
+SHA1: 5b34c37fe7bf7f7a30d2421d75ca7de0f35b23cf
+SHA256: a6b4b65486809233e0fba2a5451b5452dc3e29f21640498719f4153af57d1e42
+SHA521: cbc6d4ee542d8cdfcde737cd3866d5fc01deb3b597ef425f00f41982a37b78e6a8170933dfcdade2579e7117e1451c64feeb6db47bbc4e7c9f17a930bcdf4405
+
